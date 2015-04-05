@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.tyan.letslearn.handler.ConfigurationHandler;
+import net.tyan.letslearn.init.ModItems;
 import net.tyan.letslearn.proxy.IProxy;
 import net.tyan.letslearn.reference.Reference;
 import net.tyan.letslearn.utility.LogUtils;
@@ -28,6 +29,8 @@ public class LetsLearn {
     public void preInit(FMLPreInitializationEvent event) {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        ModItems.init();
 
         LogUtils.info("Pre Initialization complete!");
     }
