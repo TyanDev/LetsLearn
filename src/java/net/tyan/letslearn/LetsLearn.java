@@ -9,6 +9,6 @@ import net.minecraftforge.fml.common.Mod;
 @Mod(modid = "LetsLearn", name = "Lets Learn", version = "1.8-1.0")
 public class LetsLearn {
 
-    
+
 
 }
