@@ -12,6 +12,9 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = "LetsLearn", name = "Lets Learn", version = "1.8-1.0")
 public class LetsLearn {
 
+    @Mod.Instance("LetsLearn")
+    public static LetsLearn instance;
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
 
@@ -24,7 +27,7 @@ public class LetsLearn {
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-        
+
     }
 
 
