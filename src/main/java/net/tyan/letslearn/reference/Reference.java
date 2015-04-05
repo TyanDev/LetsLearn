@@ -12,4 +12,6 @@ public class Reference {
 
     public static final String SERVER_PROXY_CLASS = "net.tyan.letslearn.proxy.ServerProxy";
     public static final String CLIENT_PROXY_CLASS = "net.tyan.letslearn.proxy.ClientProxy";
+
+    public static final String GUI_FACTORY_CLASS = "net.tyan.letslearn.client.gui.GuiFactory";
 }
