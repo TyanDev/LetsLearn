@@ -1,0 +1,21 @@
+[
+{
+"modid": "LetsLearn",
+"name": "Lets Learn",
+"description": "Learn forge programming with Pahimar's LetsModReboot series",
+"version": "1.0",
+"mcversion": "1.8",
+"url": "",
+"updateUrl": "",
+"authorList": [
+"Tyan"
+],
+"credits": "Thanks to all of my supporters",
+"logoFile": "",
+"screenshots": [
+],
+"parent":"",
+"dependencies": [
+]
+}
+]
