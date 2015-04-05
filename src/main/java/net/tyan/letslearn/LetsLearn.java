@@ -5,6 +5,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.tyan.letslearn.configuration.ConfigurationHandler;
 import net.tyan.letslearn.proxy.IProxy;
 import net.tyan.letslearn.reference.Reference;
 
@@ -23,7 +24,7 @@ public class LetsLearn {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
